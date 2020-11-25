@@ -50,7 +50,6 @@
 
 .home-down-button {
     color: var(--main-color);
-    opacity: 40%;
     transition: transform 0.3s;
     animation: MoveUpDown 1.5s linear infinite;
 }
