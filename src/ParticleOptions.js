@@ -1,7 +1,7 @@
 export const particleOptions = {
     particles: {
         number: {
-            value: 100,
+            value: 70,
         },
         color: {
             value: "#000",
