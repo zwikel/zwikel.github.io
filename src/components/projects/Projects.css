@@ -1,0 +1,18 @@
+.project-card {
+    transition: transform 0.3s;
+    margin-bottom: 1vh;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.project-card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.project-more {
+    display: flex;
+    justify-content: center;
+}

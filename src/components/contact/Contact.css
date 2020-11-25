@@ -1,0 +1,7 @@
+.contact-button {
+    transition: transform 0.3s;
+}
+
+.contact-button:hover {
+    transform: rotate(-8deg);
+}

@@ -1,0 +1,9 @@
+.about-button {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.about-link {
+    color: black;
+    font-weight: bold;
+}

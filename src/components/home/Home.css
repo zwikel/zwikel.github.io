@@ -1,0 +1,74 @@
+.home-horizontal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-vertical {
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+.home-name {
+    color: darkred;
+    font-size: 3.4em;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--text-shadow-color);
+}
+
+.home-headshot {
+    max-width: 35%;
+    border-radius: 50%;
+    border: var(--main-color) 3px solid;
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-headshot {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-headshot {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .home-headshot {
+        max-width: 90%;
+    }
+}
+
+.home-typewriter {
+    color: var(--secondary-color);
+    font-size: 2.3em;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--text-shadow-color);
+    margin-bottom: 3vh;
+}
+
+.home-down-button {
+    color: var(--main-color);
+    opacity: 40%;
+    transition: transform 0.3s;
+    animation: MoveUpDown 1.5s linear infinite;
+}
+
+/*.home-down-button:hover {*/
+/*    animation-play-state: paused;*/
+/*}*/
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(40%);
+    }
+}
+
+
+
+
+
