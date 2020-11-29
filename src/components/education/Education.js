@@ -23,7 +23,7 @@ export default class Education  extends Component{
                             <Card.Img className="education-image" src={CSU}/>
                         </Card.Header>
                         <Card.Body>
-                            <Card.Title className="education-card-title">"Colorado State University"</Card.Title>
+                            <Card.Title className="education-card-title">Colorado State University</Card.Title>
                             <Card.Text className="education-card-text">
                                 <strong>Bachelor of Science</strong>
                                 <br/>
