@@ -9,8 +9,8 @@ function Contact() {
             <h1>Where To Find Me</h1>
             <Jumbotron className="app-jumbo">
                 <Row>
-                    <Col>
-                        <a className="text-light text-decoration-none "
+                    <Col className="contact-col">
+                        <a className="text-light text-decoration-none"
                            href="mailto:zacharywikel@gmail.com"
                            target="_blank" rel="noopener noreferrer">
                             <i className="fas fa-envelope-square fab fa-6x contact-button"/>
@@ -18,7 +18,7 @@ function Contact() {
                             Email
                         </a>
                     </Col>
-                    <Col>
+                    <Col className="contact-col">
                         <a className="text-light text-decoration-none" href="https://www.linkedin.com/in/zachary-wikel/"
                            target="_blank"
                            rel="noopener noreferrer">
@@ -27,7 +27,7 @@ function Contact() {
                             LinkedIn
                         </a>
                     </Col>
-                    <Col>
+                    <Col className="contact-col">
                         <a className="text-light text-decoration-none" href="https://github.com/zwikel"
                            target="_blank"
                            rel="noopener noreferrer">
@@ -36,7 +36,7 @@ function Contact() {
                             GitHub
                         </a>
                     </Col>
-                    <Col>
+                    <Col className="contact-col">
                         <a className="text-light text-decoration-none"
                            href="https://drive.google.com/file/d/17PARggq6SNKtgJVgAg_GBTzhvGu7HDpX/view?usp=sharing"
                            target="_blank"

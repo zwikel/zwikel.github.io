@@ -1,3 +1,9 @@
+.contact-col{
+    font-weight: bold;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
 .contact-button {
     transition: transform 0.3s;
 }

@@ -1,7 +1,7 @@
 .App {
     text-align: center;
     background-color: var(--alternate-color);
-    font-size: 1.1em;
+    font-size: 1em;
     color: black;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
