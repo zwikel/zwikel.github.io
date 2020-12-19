@@ -33,10 +33,7 @@ export default class About extends Component {
                 spent six years in settings such as Texas, Kuwait, Iraq, and South Korea. While in the Army,
                 I
                 had the pleasure of working with and leading many great people while flying&nbsp;
-                <a className="about-link"
-                   href="https://en.wikipedia.org/wiki/General_Atomics_MQ-1C_Gray_Eagle"
-                   target="_blank"
-                   rel="noopener noreferrer">this aircraft</a>. During my career, my interest in problem
+                {this.renderAircraftLink()}. During my career, my interest in problem
                 solving and learning how things worked grew exponentially. I decided to change gears and
                 moved
                 to Fort Collins, Colorado to further my education and to pursue this newly developed
@@ -52,6 +49,15 @@ export default class About extends Component {
                 May
                 2021 and am eager to find a team to work with and see what we can design and develop.
             </Card.Text>
+        );
+    }
+
+    renderAircraftLink() {
+        return (
+            <a className="about-link"
+               href="https://www.ga-asi.com/remotely-piloted-aircraft/gray-eagle"
+               target="_blank"
+               rel="noopener noreferrer">this aircraft</a>
         );
     }
 }
