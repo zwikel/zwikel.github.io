@@ -14,6 +14,7 @@ import JUNIT from "../../assets/skills/JUnit.png";
 import LINUX from "../../assets/skills/Linux.svg";
 import NPM from "../../assets/skills/npm.svg";
 import NODE_JS from "../../assets/skills/nodejs.svg";
+import POSTMAN from "../../assets/skills/postman.png";
 import PYTHON from "../../assets/skills/python.svg";
 import REACT from "../../assets/skills/react.svg";
 import REACT_BOOTSTRAP from "../../assets/skills/react-bootstrap.svg";
@@ -22,139 +23,138 @@ import SQL from "../../assets/skills/SQL.png";
 import TRAVIS from "../../assets/skills/travis-ci.svg";
 import VSCODE from "../../assets/skills/vs-code.png";
 import WINDOWS from "../../assets/skills/Windows.svg";
-import ZENHUB from "../../assets/skills/zenhub.svg";
 
 export const skills = {
     languages: [
         {
+            name: "C",
             link: "https://www.iso.org/standard/74528.html",
-            imgSrc: C,
-            skillName: "C",
+            image: C,
         },
         {
+            name: "C++",
             link: "https://isocpp.org/",
-            imgSrc: CPLUSPLUS,
-            skillName: "C++",
+            image: CPLUSPLUS,
         },
         {
+            name: "Java",
             link: "https://www.oracle.com/java/",
-            imgSrc: JAVA,
-            skillName: "Java",
+            image: JAVA,
         },
         {
+            name: "Python",
             link: "https://www.python.org/",
-            imgSrc: PYTHON,
-            skillName: "Python",
+            image: PYTHON,
         },
         {
+            name: "SQL",
             link: "https://www.iso.org/standard/63555.html",
-            imgSrc: SQL,
-            skillName: "SQL",
+            image: SQL,
         },
         {
+            name: "JavaScript",
             link: "https://www.javascript.com/",
-            imgSrc: JAVASCRIPT,
-            skillName: "JavaScript",
+            image: JAVASCRIPT,
         },
         {
+            name: "HTML",
             link: "https://html.spec.whatwg.org/",
-            imgSrc: HTML5,
-            skillName: "HTML",
+            image: HTML5,
         },
         {
+            name: "CSS",
             link: "https://www.w3.org/TR/CSS2/",
-            imgSrc: CSS3,
-            skillName: "CSS",
+            image: CSS3,
         },
     ],
 
     technologies: [
         {
+            name: "Linux",
             link: "https://www.linuxfoundation.org/",
-            imgSrc: LINUX,
-            skillName: "Linux",
+            image: LINUX,
         },
         {
+            name: "Windows",
             link: "https://www.microsoft.com/en-us/windows",
-            imgSrc: WINDOWS,
-            skillName: "Windows",
+            image: WINDOWS,
         },
         {
+            name: "React",
             link: "https://reactjs.org/",
-            imgSrc: REACT,
-            skillName: "React",
+            image: REACT,
         },
         {
+            name: "Node",
             link: "https://nodejs.org/en/",
-            imgSrc: NODE_JS,
-            skillName: "Node",
+            image: NODE_JS,
         },
         {
+            name: "Express",
             link: "https://expressjs.com/",
-            imgSrc: EXPRESS,
-            skillName: "Express",
+            image: EXPRESS,
         },
         {
+            name: "React Bootstrap",
             link: "https://react-bootstrap.github.io/",
-            imgSrc: REACT_BOOTSTRAP,
-            skillName: "React Bootstrap",
+            image: REACT_BOOTSTRAP,
         },
         {
-            link: "https://junit.org/junit5/",
-            imgSrc: JUNIT,
-            skillName: "Junit",
-        },
-        {
-            link: "https://jestjs.io/",
-            imgSrc: JEST,
-            skillName: "Jest",
-        },
-        {
+            name: "Travis CI",
             link: "https://travis-ci.org/",
-            imgSrc: TRAVIS,
-            skillName: "Travis CI",
+            image: TRAVIS,
+        },
+        {
+            name: "Jest",
+            link: "https://jestjs.io/",
+            image: JEST,
+        },
+        {
+            name: "Junit",
+            link: "https://junit.org/junit5/",
+            image: JUNIT,
         },
     ],
     tools: [
         {
+            name: "GIT",
             link: "https://git-scm.com/",
-            imgSrc: GIT,
-            skillName: "GIT",
+            image: GIT,
         },
         {
+            name: "GitHub",
             link: "https://github.com/",
-            imgSrc: GITHUB,
-            skillName: "GitHub",
+            image: GITHUB,
         },
         {
-            link: "https://www.zenhub.com/",
-            imgSrc: ZENHUB,
-            skillName: "ZenHub",
-        },
-        {
+            name: "NPM",
             link: "https://www.npmjs.com/",
-            imgSrc: NPM,
-            skillName: "NPM",
+            image: NPM,
         },
         {
-            link: "https://www.jetbrains.com/idea/",
-            imgSrc: INTELLIJ,
-            skillName: "Intellij",
+            name: "Postman",
+            link: "https://www.postman.com/",
+            image: POSTMAN,
         },
         {
-            link: "https://code.visualstudio.com/",
-            imgSrc: VSCODE,
-            skillName: "VS Code",
-        },
-        {
+            name: "Code Climate",
             link: "https://codeclimate.com/",
-            imgSrc: CODECLIMATE,
-            skillName: "Code Climate",
+            image: CODECLIMATE,
         },
         {
+            name: "Intellij",
+            link: "https://www.jetbrains.com/idea/",
+            image: INTELLIJ,
+        },
+        {
+            name: "VS Code",
+            link: "https://code.visualstudio.com/",
+            image: VSCODE,
+        },
+        {
+            name: "Slack",
             link: "https://slack.com/",
-            imgSrc: SLACK,
-            skillName: "Slack",
+            image: SLACK,
         },
     ],
 };

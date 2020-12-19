@@ -13,7 +13,7 @@ export default class About extends Component {
                         Hi there 👋 I'm<strong>&nbsp;Zachary Wikel</strong> but feel free to call me Zach!
                     </Card.Header>
                     <Card.Body>
-                        {this.renderCardText()}
+                        {this.renderBio()}
                         <br/>
                         <Button href="#contact" variant="outline" title="contact" size="md" className="about-button">
                             <i className="fas fa-mail-bulk"/> Get in Touch
@@ -24,7 +24,7 @@ export default class About extends Component {
         );
     }
 
-    renderCardText() {
+    renderBio() {
         return (
             <Card.Text>
                 I was born and raised in the small town of Milan, Ohio surrounded by farmland and buckeye
