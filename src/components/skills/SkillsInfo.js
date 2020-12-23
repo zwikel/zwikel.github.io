@@ -1,3 +1,4 @@
+import BOOTSTRAP from "../../assets/skills/Bootstrap_logo.svg";
 import C from "../../assets/skills/C.svg";
 import CODECLIMATE from "../../assets/skills/codeclimate.svg";
 import CPLUSPLUS from "../../assets/skills/Cplusplus.svg";
@@ -6,7 +7,7 @@ import EXPRESS from "../../assets/skills/express.svg";
 import GIT from "../../assets/skills/git-icon.svg";
 import GITHUB from "../../assets/skills/github.svg";
 import HTML5 from "../../assets/skills/html-5.svg";
-import INTELLIJ from "../../assets/skills/intellij-idea.svg";
+import IDEA from "../../assets/skills/intellij-idea.svg";
 import JAVA from "../../assets/skills/java.svg";
 import JAVASCRIPT from "../../assets/skills/javascript.svg";
 import JEST from "../../assets/skills/jest.png";
@@ -17,11 +18,11 @@ import NODE_JS from "../../assets/skills/nodejs.svg";
 import POSTMAN from "../../assets/skills/postman.png";
 import PYTHON from "../../assets/skills/python.svg";
 import REACT from "../../assets/skills/react.svg";
-import REACT_BOOTSTRAP from "../../assets/skills/react-bootstrap.svg";
 import SLACK from "../../assets/skills/slack.svg";
 import SQL from "../../assets/skills/SQL.png";
 import TRAVIS from "../../assets/skills/travis-ci.svg";
 import VSCODE from "../../assets/skills/vs-code.png";
+import WIRESHARK from "../../assets/skills/wireshark-icon.svg";
 import WINDOWS from "../../assets/skills/Windows.svg";
 
 export const skills = {
@@ -70,6 +71,41 @@ export const skills = {
 
     technologies: [
         {
+            name: "Node",
+            link: "https://nodejs.org/en/",
+            image: NODE_JS,
+        },
+        {
+            name: "React",
+            link: "https://reactjs.org/",
+            image: REACT,
+        },
+        {
+            name: "Express",
+            link: "https://expressjs.com/",
+            image: EXPRESS,
+        },
+        {
+            name: "Bootstrap",
+            link: "https://getbootstrap.com/",
+            image: BOOTSTRAP,
+        },
+        {
+            name: "Jest",
+            link: "https://jestjs.io/",
+            image: JEST,
+        },
+        {
+            name: "JUnit",
+            link: "https://junit.org/junit5/",
+            image: JUNIT,
+        },
+        {
+            name: "Travis CI",
+            link: "https://travis-ci.org/",
+            image: TRAVIS,
+        },
+        {
             name: "Linux",
             link: "https://www.linuxfoundation.org/",
             image: LINUX,
@@ -79,45 +115,10 @@ export const skills = {
             link: "https://www.microsoft.com/en-us/windows",
             image: WINDOWS,
         },
-        {
-            name: "React",
-            link: "https://reactjs.org/",
-            image: REACT,
-        },
-        {
-            name: "Node",
-            link: "https://nodejs.org/en/",
-            image: NODE_JS,
-        },
-        {
-            name: "Express",
-            link: "https://expressjs.com/",
-            image: EXPRESS,
-        },
-        {
-            name: "React Bootstrap",
-            link: "https://react-bootstrap.github.io/",
-            image: REACT_BOOTSTRAP,
-        },
-        {
-            name: "Travis CI",
-            link: "https://travis-ci.org/",
-            image: TRAVIS,
-        },
-        {
-            name: "Jest",
-            link: "https://jestjs.io/",
-            image: JEST,
-        },
-        {
-            name: "Junit",
-            link: "https://junit.org/junit5/",
-            image: JUNIT,
-        },
     ],
     tools: [
         {
-            name: "GIT",
+            name: "Git",
             link: "https://git-scm.com/",
             image: GIT,
         },
@@ -127,7 +128,7 @@ export const skills = {
             image: GITHUB,
         },
         {
-            name: "NPM",
+            name: "npm",
             link: "https://www.npmjs.com/",
             image: NPM,
         },
@@ -137,14 +138,19 @@ export const skills = {
             image: POSTMAN,
         },
         {
+            name: "Wireshark",
+            link: "https://www.wireshark.org/",
+            image: WIRESHARK,
+        },
+        {
             name: "Code Climate",
             link: "https://codeclimate.com/",
             image: CODECLIMATE,
         },
         {
-            name: "Intellij",
+            name: "IDEA",
             link: "https://www.jetbrains.com/idea/",
-            image: INTELLIJ,
+            image: IDEA,
         },
         {
             name: "VS Code",

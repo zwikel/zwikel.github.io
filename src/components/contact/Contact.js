@@ -21,7 +21,7 @@ export default class Contact extends Component {
                             "https://github.com/zwikel",
                             "fab fa-github-square fa-6x contact-button")}
                         {this.renderContactButton("Resume",
-                            "https://drive.google.com/file/d/17PARggq6SNKtgJVgAg_GBTzhvGu7HDpX/view?usp=sharing",
+                            "https://drive.google.com/file/d/1OxsCwYR8YYyD3eo5t_CC9fRjUVbj69jz/view?usp=sharing",
                             "fas fa-file fab fa-6x contact-button")}
                     </Row>
                 </Jumbotron>
@@ -29,8 +29,8 @@ export default class Contact extends Component {
         );
     }
 
-    renderContactButton(label, link, icon){
-        return(
+    renderContactButton(label, link, icon) {
+        return (
             <Col className="contact-col">
                 <a className="text-light text-decoration-none"
                    href={link}

@@ -2,7 +2,7 @@ export const projects = {
 
     TRIPCO: {
         name: "TripCo",
-        ltt: "Java, JavaScript, React, SQL",
+        ltt: "Java, JavaScript, SQL, React",
         text: " Developed as a mobile, single page application, TripCo allows a user to build a trip " +
             "anywhere in the world. Similar to Google Maps, users can search a database for locations and " +
             "see their selections populate on a map. Users then have other tools such as optimizing their " +
@@ -13,29 +13,29 @@ export const projects = {
 
     AWGET: {
         name: "AWGET",
-        ltt: "C, Sockets, UDP/TCP",
-        text: "AWGET stands for Anonymous Web Get, which is a file downloader that hides your" +
-            "identity. Similar to a ONION router or TOR network, AWGET traverses a series of" +
-            "anonymization \"stepping-stones\". These stepping-stones act as both a server and client," +
-            "they either download the requested file or pass the request along to the next stone." +
-            "Once the last stone has been reached, the file is downloaded and is passed back through" +
+        ltt: "C, Sockets, TCP/UDP",
+        text: "AWGET stands for Anonymous Web Get, which is a file downloader that hides your " +
+            "identity. Similar to a ONION router or TOR network, AWGET traverses a series of " +
+            "anonymization \"stepping-stones\". These stepping-stones act as both a server and client, " +
+            "they either download the requested file or pass the request along to the next stone. " +
+            "Once the last stone has been reached, the file is downloaded and is passed back through " +
             "the same series of steps. Thus, maintaining your anonymity."
     },
 
     TWITTER: {
         name: "Twitter Bot",
         ltt: "C++, Python, Tweepy, Raspberry Pi",
-        text: "This project takes a Raspberry Pi with a NOOBS operating system and runs a twitter bot" +
-            "application. The bot has its own twitter account and continuously checks for new" +
-            "mentions. In the message, these mentions would specify a location to the bot. The bot" +
-            "would then tweet the current weather information for that location back to that twitter" +
-            "user. This project was designed and developed alongside three other students over the" +
+        text: "This project takes a Raspberry Pi with a NOOBS operating system and runs a twitter bot " +
+            "application. The bot has its own twitter account and continuously checks for new " +
+            "mentions. In the message, these mentions would specify a location to the bot. The bot " +
+            "would then tweet the current weather information for that location back to that twitter " +
+            "user. This project was designed and developed alongside three other students over the " +
             "course of a semester."
     },
 
     TRAIL: {
         name: "Trail and Weather Report",
-        ltt: "Python, Beautiful Soup, Qt, NOAA API",
+        ltt: "Python, Beautiful Soup, Qt",
         text: "Stemming from my passion of trail running, this application reports the latest local trail" +
             " and weather conditions. Instead of checking multiple websites for this information, this " +
             "application combines them all into one easy to read graphical user interface. The trail " +
@@ -56,7 +56,7 @@ export const projects = {
 
     LIBRARY: {
         name: "Library Database",
-        ltt: "SQL, MariaDB, JDBC",
+        ltt: "SQL, MariaDB, Java, JDBC",
         text: "This project allowed me to design and implement a database from scratch. The database " +
             "would accommodate the records of a library and its corresponding needs. This included a table of " +
             "books, authors, publishers, members, checkouts, and more. Tables were created and filled by parsing " +
