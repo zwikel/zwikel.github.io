@@ -16,15 +16,22 @@
 }
 
 .home-headshot {
-    max-width: 30%;
+    max-width: 40%;
     border-radius: 50%;
     border: var(--main-color) 3px solid;
     margin-top: 70px;
 }
 
+@media only screen and (max-width: 1925px) {
+    .home-headshot {
+        max-width: 30%;
+    }
+}
+
+
 @media only screen and (max-width: 1025px) {
     .home-headshot {
-        max-width: 35%;
+        max-width: 30%;
     }
 }
 
