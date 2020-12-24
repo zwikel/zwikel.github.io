@@ -14,10 +14,6 @@ export default class About extends Component {
                     </Card.Header>
                     <Card.Body>
                         {this.renderBio()}
-                        <br/>
-                        <Button href="#contact" variant="outline" title="contact" size="md" className="about-button">
-                            <i className="fas fa-mail-bulk"/> Get in Touch
-                        </Button>
                     </Card.Body>
                 </Card>
             </div>
@@ -34,6 +30,9 @@ export default class About extends Component {
                 <br/>
                 <br/>
                 {this.paragraphThree()}
+                <br/>
+                <br/>
+                {this.contactButton()}
             </Card.Text>
         );
     }
@@ -73,7 +72,7 @@ export default class About extends Component {
                 I plan to run an ultramarathon in the near future whenever I actually get around to training for it.
                 I also enjoy mountaineering and so far, I've summited 14 of the 58 fourteeners here in Colorado. But, if
                 you've made it this far then thanks for reading! Feel free to get in touch if you want to learn more or
-                to just say hi.
+                just to say hi.
             </>
         );
     }
@@ -84,6 +83,14 @@ export default class About extends Component {
                href="https://www.ga-asi.com/remotely-piloted-aircraft/gray-eagle"
                target="_blank"
                rel="noopener noreferrer">this aircraft</a>
+        );
+    }
+
+    contactButton() {
+        return (
+            <Button href="#contact" variant="outline" title="contact" size="md" className="about-button">
+                <i className="fas fa-mail-bulk"/> Get in Touch
+            </Button>
         );
     }
 }
