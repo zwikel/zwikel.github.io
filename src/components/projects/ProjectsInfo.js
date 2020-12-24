@@ -1,5 +1,7 @@
 export const projects = {
 
+    // ltt = Languages, Technologies, and Tools
+
     TRIPCO: {
         name: "TripCo",
         ltt: "Java, JavaScript, SQL, React",
@@ -45,7 +47,7 @@ export const projects = {
 
     PORTFOLIO: {
         name: "Portfolio",
-        ltt: "JavaScript, React, CSS",
+        ltt: "JavaScript, React, CSS, HTML",
         text: "That portfolio happens to be this website! After working on the TripCo project I felt " +
             "inspired to learn more about web design. I figured what better way to learn than by making my own " +
             "website. And what better website to make than one that shows off what you can do! This was my " +
