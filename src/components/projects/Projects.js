@@ -19,7 +19,7 @@ export default class Projects extends Component {
                     {this.renderProject(projects.TWITTER)}
                     {this.renderProject(projects.LIBRARY)}
                 </Row>
-                <Row className="project-more">
+                <Row>
                     {this.renderProject(projects.TRAIL)}
                     {this.renderProject(projects.PORTFOLIO)}
                 </Row>
@@ -31,7 +31,7 @@ export default class Projects extends Component {
         return (
             <Col sm={12} md={6} lg={6}>
                 <Card className="app-card project-card">
-                    <Card.Header className="app-card-header">{project.name}</Card.Header>
+                    <Card.Header className="app-card-header font-weight-bold">{project.name}</Card.Header>
                     <Card.Body>
                         <Card.Title className="project-card-title">{project.ltt}</Card.Title>
                         <Card.Text>

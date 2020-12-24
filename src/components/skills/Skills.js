@@ -22,7 +22,7 @@ export default class Skills extends Component {
         return (
             <Col sm={6} md={6} lg={4}>
                 <Card className="app-card skills-card">
-                    <Card.Header className="app-card-header skills-card-header">
+                    <Card.Header className="app-card-header">
                         {title}
                     </Card.Header>
                     <Card.Body>

@@ -10,7 +10,7 @@ export default class About extends Component {
                 <h1>Who I Am</h1>
                 <Card className="app-card">
                     <Card.Header className="app-card-header">
-                        Hi there 👋 I'm<strong>&nbsp;Zachary Wikel</strong> but feel free to call me Zach!
+                        Hi there 👋 I'm<b>&nbsp;Zachary Wikel</b> but feel free to call me Zach!
                     </Card.Header>
                     <Card.Body>
                         {this.renderBio()}
