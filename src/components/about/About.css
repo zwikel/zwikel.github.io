@@ -10,3 +10,8 @@
 .about-header {
     font-size: 1.5em;
 }
+
+.about-card {
+    border-width: 0.5em;
+    border-color: var(--main-color)
+}

@@ -9,7 +9,7 @@ export default class About extends Component {
         return (
             <div id="about" className="app-nav">
                 <h1>Who I Am</h1>
-                <Card className="app-card">
+                <Card className="app-card about-card">
                     <Card.Body>
                         {this.renderBio()}
                     </Card.Body>
