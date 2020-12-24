@@ -21,7 +21,7 @@ export default class Contact extends Component {
                             "https://github.com/zwikel",
                             "fab fa-github-square fa-6x contact-button")}
                         {this.renderContactButton("Resume",
-                            "https://drive.google.com/file/d/1OxsCwYR8YYyD3eo5t_CC9fRjUVbj69jz/view?usp=sharing",
+                            "https://drive.google.com/file/d/16s1TBQMcvqH2HIZrV-pkWCWt4DvnkUDC/view?usp=sharing",
                             "fas fa-file fab fa-6x contact-button")}
                     </Row>
                 </Jumbotron>
