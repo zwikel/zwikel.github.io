@@ -27,18 +27,18 @@ export default class About extends Component {
     renderBio() {
         return (
             <Card.Text>
-                {this.ParagraphOne()}
+                {this.paragraphOne()}
                 <br/>
                 <br/>
-                {this.ParagraphTwo()}
+                {this.paragraphTwo()}
                 <br/>
                 <br/>
-                {this.ParagraphThree()}
+                {this.paragraphThree()}
             </Card.Text>
         );
     }
 
-    ParagraphOne() {
+    paragraphOne() {
         return (
             <>
                 I was born and raised in the small town of Milan, Ohio surrounded by farmland and buckeye
@@ -52,7 +52,7 @@ export default class About extends Component {
         );
     }
 
-    ParagraphTwo() {
+    paragraphTwo() {
         return (
             <>
                 I’m currently a senior at Colorado State University majoring in computer science with a
@@ -65,13 +65,13 @@ export default class About extends Component {
         );
     }
 
-    ParagraphThree() {
+    paragraphThree() {
         return (
             <>
                 When I’m not wrapping my head around the black magic which is computers, you can find me out on the
                 trails. I find trail running to be very relaxing and offsets sitting at a computer for most of the day.
                 I plan to run an ultramarathon in the near future whenever I actually get around to training for it.
-                I also enjoy mountaineering and so far, I've summited 14 of the 58 fourteeners here in Colorado. If
+                I also enjoy mountaineering and so far, I've summited 14 of the 58 fourteeners here in Colorado. But, if
                 you've made it this far then thanks for reading! Feel free to get in touch if you want to learn more or
                 to just say hi.
             </>
