@@ -50,7 +50,7 @@ export const projects = {
         ltt: "JavaScript, React, CSS, HTML",
         text: "That portfolio happens to be this website! After working on the TripCo project I felt " +
             "inspired to learn more about web design. I figured what better way to learn than by making my own " +
-            "website. And what better website to make than one that shows off what you can do! This was my " +
+            "website. And what better website to make than one that expresses who I am! This was my " +
             "first personal web project so it took some time to figure everything out, but overall, I had a ton of fun " +
             "making it. Feel free to check out the source code on my github and let me know what you think."
     },
