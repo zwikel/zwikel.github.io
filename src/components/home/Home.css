@@ -6,53 +6,52 @@
 
 .home-vertical {
     flex-direction: column;
-    padding-bottom: 5vh;
 }
 
 .home-name {
     color: darkred;
-    font-size: 3.4em;
+    font-size: 3em;
     font-weight: bold;
     text-shadow: 1px 1px var(--text-shadow-color);
 }
 
 .home-headshot {
-    margin-top: 4vh ;
     max-width: 35%;
     border-radius: 50%;
     border: var(--main-color) 3px solid;
+    margin-top: 70px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
+    .home-headshot {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 775px) {
     .home-headshot {
         max-width: 45%;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
     .home-headshot {
-        max-width: 60%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .home-headshot {
-        max-width: 90%;
+        max-width: 85%;
     }
 }
 
 .home-typewriter {
     color: var(--secondary-color);
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: bold;
     text-shadow: 1px 1px var(--text-shadow-color);
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
 }
 
 .home-down-button {
     color: var(--main-color);
     transition: transform 0.3s;
-    animation: MoveUpDown 1.5s linear infinite;
+    animation: MoveUpDown 1.75s linear infinite;
 }
 
 /*.home-down-button:hover {*/
@@ -64,7 +63,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(40%);
+        transform: translateY(50%);
     }
 }
 
