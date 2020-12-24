@@ -17,17 +17,17 @@ export default class Projects extends Component {
                 </Row>
                 <Row>
                     {this.renderProject(projects.TWITTER)}
-                    {this.renderProject(projects.TRAIL)}
+                    {this.renderProject(projects.LIBRARY)}
                 </Row>
                 <Row className="project-more">
+                    {this.renderProject(projects.TRAIL)}
                     {this.renderProject(projects.PORTFOLIO)}
-                    {this.renderProject(projects.LIBRARY)}
                 </Row>
             </div>
         );
     }
 
-    renderProject(project){
+    renderProject(project) {
         return (
             <Col sm={12} md={6} lg={6}>
                 <Card className="app-card project-card">
