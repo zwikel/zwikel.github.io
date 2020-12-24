@@ -5,5 +5,8 @@
 
 .about-link {
     color: black;
-    font-weight: bold;
+}
+
+.about-header {
+    font-size: 1.5em;
 }

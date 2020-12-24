@@ -4,14 +4,12 @@ import {Button, Card} from "react-bootstrap";
 import "./About.css"
 
 export default class About extends Component {
+
     render() {
         return (
             <div id="about" className="app-nav">
                 <h1>Who I Am</h1>
                 <Card className="app-card">
-                    <Card.Header className="app-card-header">
-                        Hi there 👋 I'm<b>&nbsp;Zachary Wikel</b> but feel free to call me Zach!
-                    </Card.Header>
                     <Card.Body>
                         {this.renderBio()}
                     </Card.Body>
@@ -23,6 +21,9 @@ export default class About extends Component {
     renderBio() {
         return (
             <Card.Text>
+                {this.bioHeader()}
+                <br/>
+                <br/>
                 {this.paragraphOne()}
                 <br/>
                 <br/>
@@ -37,14 +38,22 @@ export default class About extends Component {
         );
     }
 
+    bioHeader() {
+        return (
+            <em className="about-header">
+                Hi there 👋 I'm<b>&nbsp;Zachary Wikel</b> but feel free to call me Zach!
+            </em>
+        );
+    }
+
     paragraphOne() {
         return (
             <>
                 I was born and raised in the small town of Milan, Ohio surrounded by farmland and buckeye
                 fans (myself included). I joined the United States Army shortly after graduating high school
                 and spent six years in settings such as Texas, Kuwait, Iraq, and South Korea. While in the Army,
-                I had the pleasure of working with and leading many great people while flying&nbsp;
-                {this.aircraftLink()}. During my career, my interest in problem solving and learning how things
+                I had the pleasure of working with and leading many great people while flying this&nbsp;
+                <u>{this.aircraftLink()}</u>. During my career, my interest in problem solving and learning how things
                 worked grew exponentially. I decided to change gears and moved to Fort Collins, Colorado to further
                 my education and to pursue this newly developed interest.
             </>
@@ -82,7 +91,7 @@ export default class About extends Component {
             <a className="about-link"
                href="https://www.ga-asi.com/remotely-piloted-aircraft/gray-eagle"
                target="_blank"
-               rel="noopener noreferrer">this aircraft</a>
+               rel="noopener noreferrer">aircraft</a>
         );
     }
 
@@ -93,4 +102,5 @@ export default class About extends Component {
             </Button>
         );
     }
+
 }
