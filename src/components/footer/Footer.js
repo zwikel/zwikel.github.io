@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
     return (
-        <div className="footer-style app-div">Designed and Developed by:<b>&nbsp;Zachary Wikel</b></div>
+        <div className="footer-style">Designed and Developed by:<b>&nbsp;Zachary Wikel</b></div>
     );
 }
 

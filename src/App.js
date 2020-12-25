@@ -21,15 +21,10 @@ function App() {
             <Container className="app-container">
                 <Home/>
                 <About/>
-                <hr/>
                 <Education/>
-                <hr/>
                 <Skills/>
-                <hr/>
                 <Projects/>
-                <hr/>
                 <Contact/>
-                <hr/>
             </Container>
             <Footer/>
         </div>
