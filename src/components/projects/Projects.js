@@ -9,7 +9,7 @@ export default class Projects extends Component {
 
     render() {
         return (
-            <div id="projects" className="app-nav app-div">
+            <div id="projects" className="app-nav">
                 <h1>What I Have Done</h1>
                 <Row>
                     {this.renderProject(projects.TRIPCO)}

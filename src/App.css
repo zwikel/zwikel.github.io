@@ -59,10 +59,6 @@
     z-index: 2;
 }
 
-.app-div {
-    margin-top: -1vh;
-}
-
 .app-container {
     position: relative;
     z-index: 2;
@@ -77,9 +73,8 @@
 }
 
 .app-jumbo {
-    margin-top: 2vh;
-    margin-bottom: 9vh;
     background-color: var(--main-color);
+    margin-bottom: -1vh;
 }
 
 .app-card {
@@ -93,17 +88,12 @@
     font-size: 1.5em;
 }
 
-hr {
-    border: 0;
-    margin-bottom: 10vh;
-    z-index: 2;
-}
-
 h1 {
-    font-size: 2.9em;
+    font-size: 2.5em;
     font-weight: bold;
     color: var(--secondary-color);
     text-shadow: 1px 1px var(--text-shadow-color);
+    margin-top: 5vh;
     margin-bottom: 2vh;
     margin-left: 12.5%;
     z-index: 2;
@@ -111,5 +101,4 @@ h1 {
     padding-bottom: 1vh;
     border-bottom: 1px solid black;
     width: 70%;
-
 }
