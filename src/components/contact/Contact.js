@@ -7,7 +7,7 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <div id="contact" className="app-nav">
+            <div id="contact" className="app-nav app-after-card">
                 <h1>Where To Find Me</h1>
                 <Jumbotron className="app-jumbo">
                     <Row>

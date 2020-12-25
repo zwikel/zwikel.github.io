@@ -74,7 +74,7 @@
 
 .app-jumbo {
     background-color: var(--main-color);
-    margin-bottom: -1vh;
+    margin-bottom: -0.5vh;
 }
 
 .app-card {
@@ -93,7 +93,6 @@ h1 {
     font-weight: bold;
     color: var(--secondary-color);
     text-shadow: 1px 1px var(--text-shadow-color);
-    margin-top: 5vh;
     margin-bottom: 2vh;
     margin-left: 12.5%;
     z-index: 2;
@@ -101,4 +100,8 @@ h1 {
     padding-bottom: 1vh;
     border-bottom: 1px solid black;
     width: 70%;
+}
+
+.app-after-card {
+    margin-top: -1vh;
 }
