@@ -22,7 +22,8 @@ export default class About extends Component {
         return (
             <Card.Text>
                 {this.bioHeader()}
-                <hr/>
+                <br/>
+                <br/>
                 {this.paragraphOne()}
                 <br/>
                 <br/>
