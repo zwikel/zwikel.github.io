@@ -19,7 +19,6 @@
     max-width: 40%;
     border-radius: 50%;
     border: var(--main-color) 3px solid;
-    margin-top: 50px;
 }
 
 @media only screen and (max-width: 1925px) {
@@ -31,7 +30,7 @@
 
 @media only screen and (max-width: 1025px) {
     .home-headshot {
-        max-width: 40%;
+        max-width: 35%;
     }
 }
 
