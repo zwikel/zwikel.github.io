@@ -2,14 +2,14 @@ import BOOTSTRAP from "../../assets/skills/Bootstrap_logo.svg";
 import C from "../../assets/skills/C.svg";
 import CODECLIMATE from "../../assets/skills/codeclimate.svg";
 import CPLUSPLUS from "../../assets/skills/Cplusplus.svg";
-import CSS3 from "../../assets/skills/css3.png";
+import CSS from "../../assets/skills/css.png";
 import EXPRESS from "../../assets/skills/express.svg";
 import GIT from "../../assets/skills/git-icon.svg";
 import GITHUB from "../../assets/skills/github.svg";
-import HTML5 from "../../assets/skills/html-5.svg";
+import HTML from "../../assets/skills/html.svg";
 import IDEA from "../../assets/skills/intellij-idea.svg";
 import JAVA from "../../assets/skills/java.svg";
-import JAVASCRIPT from "../../assets/skills/javascript.svg";
+import JAVASCRIPT from "../../assets/skills/js.png";
 import JEST from "../../assets/skills/jest.png";
 import JUNIT from "../../assets/skills/JUnit.png";
 import LINUX from "../../assets/skills/Linux.svg";
@@ -19,8 +19,9 @@ import POSTMAN from "../../assets/skills/postman.png";
 import PYTHON from "../../assets/skills/python.svg";
 import REACT from "../../assets/skills/react.svg";
 import SLACK from "../../assets/skills/slack.svg";
-import SQL from "../../assets/skills/SQL.png";
+import SQL from "../../assets/skills/database.png";
 import TRAVIS from "../../assets/skills/travis-ci.svg";
+import TYPESCRIPT from "../../assets/skills/typescript.svg";
 import VSCODE from "../../assets/skills/vs-code.png";
 import WIRESHARK from "../../assets/skills/wireshark-icon.svg";
 import WINDOWS from "../../assets/skills/Windows.svg";
@@ -58,14 +59,19 @@ export const skills = {
             image: JAVASCRIPT,
         },
         {
+            name: "TypeScript",
+            link: "https://www.javascript.com/",
+            image: TYPESCRIPT,
+        },
+        {
             name: "HTML",
             link: "https://html.spec.whatwg.org/",
-            image: HTML5,
+            image: HTML,
         },
         {
             name: "CSS",
             link: "https://www.w3.org/TR/CSS2/",
-            image: CSS3,
+            image: CSS,
         },
     ],
 
