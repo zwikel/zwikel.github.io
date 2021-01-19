@@ -60,7 +60,7 @@ export const skills = {
         },
         {
             name: "TypeScript",
-            link: "https://www.javascript.com/",
+            link: "https://www.typescriptlang.org/",
             image: TYPESCRIPT,
         },
         {
