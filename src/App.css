@@ -57,6 +57,7 @@
 .app-nav {
     padding-top: 70px;
     z-index: 2;
+    padding-bottom: 4vh;
 }
 
 .app-container {
