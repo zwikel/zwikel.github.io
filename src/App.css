@@ -13,6 +13,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -22,6 +23,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -31,6 +33,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -40,6 +43,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -49,6 +53,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -66,43 +71,13 @@
     width: 90%;
 }
 
-.app-particles {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
-}
-
-.app-jumbo {
-    background-color: var(--main-color);
-    margin-bottom: -0.5vh;
-}
-
-.app-card {
-    border-color: black;
-    background-color: var(--primary-color);
-}
-
-.app-card-header {
-    background-color: var(--main-color);
-    color: white;
-    font-size: 1.5em;
-}
 
 h1 {
     font-size: 2.5em;
     font-weight: bold;
     color: var(--secondary-color);
     text-shadow: 1px 1px var(--text-shadow-color);
-    margin-bottom: 2vh;
-    margin-left: 12.5%;
-    z-index: 2;
-    position: relative;
-    padding-bottom: 1vh;
+    margin: 0 auto 1em;
     border-bottom: 1px solid black;
-    width: 70%;
-}
-
-.app-after-card {
-    margin-top: -1vh;
+    width: 50%;
 }

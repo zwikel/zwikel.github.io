@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import {Button, Card} from "react-bootstrap";
+import React, { Component } from "react";
+import { Button, Card } from "react-bootstrap";
 
 import "./About.css"
 
@@ -9,7 +9,7 @@ export default class About extends Component {
         return (
             <div id="about" className="app-nav">
                 <h1>Who I Am</h1>
-                <Card className="app-card about-card">
+                <Card className="about-card">
                     <Card.Body>
                         {this.renderBio()}
                     </Card.Body>
@@ -22,18 +22,9 @@ export default class About extends Component {
         return (
             <Card.Text>
                 {this.bioHeader()}
-                <br/>
-                <br/>
-                {this.paragraphOne()}
-                <br/>
-                <br/>
-                {this.paragraphTwo()}
-                <br/>
-                <br/>
-                {this.paragraphThree()}
-                <br/>
-                <br/>
-                {this.contactButton()}
+                <br />
+                <br />
+                {this.bioContent()}
             </Card.Text>
         );
     }
@@ -46,42 +37,17 @@ export default class About extends Component {
         );
     }
 
-    paragraphOne() {
+    bioContent() {
         return (
             <>
-                I was born and raised in the small town of Milan, Ohio surrounded by farmland and buckeye
-                fans (myself included). I joined the United States Army shortly after graduating high school
-                and spent six years in settings such as Texas, Kuwait, Iraq, and South Korea. While in the Army,
-                I had the pleasure of working with and leading many great people while flying this&nbsp;
-                <u>{this.aircraftLink()}</u>. During my career, my interest in problem solving and learning how things
-                worked grew exponentially. I decided to change gears and moved to Fort Collins, Colorado to further
-                my education and to pursue this newly developed interest.
-            </>
-        );
-    }
-
-    paragraphTwo() {
-        return (
-            <>
-                I’m currently a senior at Colorado State University majoring in computer science with a
-                minor in mathematics. My upper-level computer science classes consist of databases,
-                distributed systems, machine learning, and networking. I am experienced with Agile and Scrum
-                methodologies as a member of a team during software development. I consider myself proficient
-                with object-oriented programming languages though, my favorite language is C. I graduate in
-                May 2021 and am eager to find a team to work with and see what we can design and develop.
-            </>
-        );
-    }
-
-    paragraphThree() {
-        return (
-            <>
-                When I’m not wrapping my head around the black magic which is computers, you can find me out on the
-                trails. I find trail running to be very relaxing and offsets sitting at a computer for most of the day.
-                I plan to run an ultramarathon in the near future whenever I actually get around to training for it.
-                I also enjoy mountaineering and so far, I've summited 14 of the 58 fourteeners here in Colorado. But, if
-                you've made it this far then thanks for reading! Feel free to get in touch if you want to learn more or
-                just to say hi.
+            I was born and raised in Milan, Ohio, surrounded by farmland and Ohio State fans (including myself!). 
+            After joining the United States Army, I spent six years operating this <u>{this.aircraftLink()}</u>  
+            &nbsp;while working with and leading exceptional individuals. Following my time in the service, I transitioned to 
+            studying computer science and found that I have a real passion for systems and embedded software. I'm particularly 
+            interested in projects that involve optimization or efficiency, as I enjoy the challenge of finding ways to make 
+            things run more smoothly and effectively. When I'm not at my desk tinkering with software or hardware projects, 
+            you can usually find me on the trails running, climbing, or mountaineering. Thank you for taking the time to visit 
+            my portfolio and learn more about my passions and interests. Feel free to reach out and connect using my links below!
             </>
         );
     }
@@ -89,17 +55,9 @@ export default class About extends Component {
     aircraftLink() {
         return (
             <a className="about-link"
-               href="https://www.ga-asi.com/remotely-piloted-aircraft/gray-eagle"
-               target="_blank"
-               rel="noopener noreferrer">aircraft</a>
-        );
-    }
-
-    contactButton() {
-        return (
-            <Button href="#contact" variant="outline" title="contact" size="md" className="about-button">
-                <i className="fas fa-mail-bulk"/> Get in Touch
-            </Button>
+                href="https://www.ga-asi.com/remotely-piloted-aircraft/gray-eagle"
+                target="_blank"
+                rel="noopener noreferrer">aircraft</a>
         );
     }
 

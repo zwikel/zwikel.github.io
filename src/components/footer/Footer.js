@@ -3,8 +3,10 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
-        <div className="footer-style">Designed and Developed by:<b>&nbsp;Zachary Wikel</b></div>
+        <div className="footer-style">&copy; {currentYear} &nbsp; &#8211; &nbsp; Zachary Wikel</div>
     );
 }
 

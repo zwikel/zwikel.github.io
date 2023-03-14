@@ -12,9 +12,6 @@ function Header() {
                     <Nav>
                         <Nav.Link style={{color: "white"}} href="#home">Home</Nav.Link>
                         <Nav.Link style={{color: "white"}} href="#about">About</Nav.Link>
-                        <Nav.Link style={{color: "white"}} href="#education">Education</Nav.Link>
-                        <Nav.Link style={{color: "white"}} href="#skills">Skills</Nav.Link>
-                        <Nav.Link style={{color: "white"}} href="#projects">Projects</Nav.Link>
                         <Nav.Link style={{color: "white"}} href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

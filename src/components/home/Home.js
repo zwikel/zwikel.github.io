@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from 'typewriter-effect/';
 
 import './Home.css';
-import Headshot from "../../assets/pictures/Headshot.webp";
+import Headshot from "../../assets/Headshot.webp";
 
 function Home() {
     return (
@@ -20,9 +20,7 @@ function Home() {
                         }}
                     />
                 </div>
-                {/*<a href="#about">*/}
                 <i className="fas fa-chevron-circle-down fa-3x home-down-button"/>
-                {/*</a>*/}
             </div>
         </div>
     );

@@ -9,3 +9,11 @@
 .contact-button:hover {
     transform: rotate(-8deg);
 }
+
+.contact-card {
+    border-color: black;
+    background-color: var(--main-color);
+    border-width: 0.15em;
+    max-width: 75%;
+    margin: 0 auto;
+}
